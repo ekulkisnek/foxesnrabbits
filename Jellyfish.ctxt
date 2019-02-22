@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Jellyfish
+comment0.text=\n\ A\ simple\ model\ of\ a\ jellyfish.\n\ Jellyfish\ age,\ move,\ breed,\ die\ and\ live\ without\ any\ need\ for\ food.\n\ They\ have\ long\ lives\ and\ can\ get\ a\ disease.\n\ They\ can\ reproduce\ by\ themselves\ but\ for\ that\ to\ occur\ is\ a\ very,\ very\ low\ chance.\n\ \n\ @author\ Mohammad\ Talal\ Hassan\ and\ Luke\ Kensik\n\ @version\ 2016.02.29\ (2)\n
+comment1.params=randomAge\ field\ location
+comment1.target=Jellyfish(boolean,\ Field,\ Location)
+comment1.text=\n\ Create\ a\ new\ jellyfish.\ A\ jellyfish\ may\ be\ created\ with\ age\n\ zero\ (a\ new\ born)\ or\ with\ a\ random\ age.\n\ \n\ @param\ randomAge\ If\ true,\ the\ jellyfish\ will\ have\ a\ random\ age.\n\ @param\ field\ The\ field\ currently\ occupied.\n\ @param\ location\ The\ location\ within\ the\ field.\n
+comment2.params=newJellyfish
+comment2.target=void\ act(java.util.List)
+comment2.text=\n\ This\ is\ what\ the\ jellyfish\ does\ most\ of\ the\ time\ -\ it\ runs\ \n\ around.\ Sometimes\ it\ will\ breed\ or\ die\ of\ old\ age,\ or\ die\ of\ disease\n\ @param\ newJellyfish\ A\ list\ to\ return\ newly\ born\ jellyfish.\n
+comment3.params=
+comment3.target=void\ incrementAge()
+comment3.text=\n\ Increase\ the\ age.\n\ This\ could\ result\ in\ the\ jellyfish's\ death.\n
+comment4.params=newJellyfish
+comment4.target=void\ giveBirth(java.util.List)
+comment4.text=\n\ Check\ whether\ or\ not\ this\ jellyfish\ is\ to\ give\ birth\ at\ this\ step.\n\ New\ births\ will\ be\ made\ into\ free\ adjacent\ locations.\n\ @param\ newJellyfish\ A\ list\ to\ return\ newly\ born\ jellyfish.\n
+comment5.params=
+comment5.target=int\ breed()
+comment5.text=\n\ Generate\ a\ number\ representing\ the\ number\ of\ births,\n\ if\ it\ can\ breed.\n\ @return\ The\ number\ of\ births\ (may\ be\ zero).\n
+comment6.params=
+comment6.target=boolean\ canBreed()
+comment6.text=\n\ A\ jellyfish\ can\ breed\ if\ it\ has\ reached\ the\ breedjellyfishe.\n\ @return\ true\ if\ the\ jellyfish\ can\ breed,\ false\ otherwise.\n
+numComments=7

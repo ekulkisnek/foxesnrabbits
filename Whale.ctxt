@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Whale
+comment0.text=\n\ A\ simple\ model\ of\ a\ rabbit.\n\ Whales\ age,\ move,\ breed,\ eat\ krill,\ sleep\ and\ die.\n\ They\ can\ get\ a\ disease\ and\ die\n\ \n\ @author\ Mohammad\ Talal\ Hassan\ and\ Luke\ Kensik\n\ @version\ 2016.02.29\ (2)\n
+comment1.params=randomAge\ field\ location
+comment1.target=Whale(boolean,\ Field,\ Location)
+comment1.text=\n\ Create\ a\ new\ whale.\ A\ whale\ may\ be\ created\ with\ age\n\ zero\ (a\ new\ born)\ or\ with\ a\ random\ age.\n\ \n\ @param\ randomAge\ If\ true,\ the\ whale\ will\ have\ a\ random\ age.\n\ @param\ field\ The\ field\ currently\ occupied.\n\ @param\ location\ The\ location\ within\ the\ field.\n
+comment2.params=newWhales
+comment2.target=void\ act(java.util.List)
+comment2.text=\n\ This\ is\ what\ the\ whale\ does\ most\ of\ the\ time\ -\ it\ swims\ \n\ around,\ and\ eats\ krill.\ Sometimes\ it\ will\ breed\ or\ die\ of\ old\ age,\n\ die\ of\ hunger,\ or\ die\ of\ disease\n\ @param\ newWhales\ A\ list\ to\ return\ newly\ born\ whales.\n
+comment3.params=newWhales
+comment3.target=void\ findMate(java.util.List)
+comment3.text=\n\ Checks\ for\ adjacent\ whales\ of\ opposite\ sex\ to\ mate\ with\n\ May\ spread\ disease\ to\ partner\ if\ current\ whale\ has\ disease\n\ @param\ newWhales\ list\ of\ whales\ to\ populate\ with\ offspring\ \n
+comment4.params=newWhales
+comment4.target=void\ giveBirth(java.util.List)
+comment4.text=\n\ Check\ whether\ or\ not\ this\ whale\ is\ to\ give\ birth\ at\ this\ step.\n\ New\ births\ will\ be\ made\ into\ free\ adjacent\ locations.\n\ @param\ newWhales\ A\ list\ to\ return\ newly\ born\ whales.\n
+comment5.params=
+comment5.target=int\ breed()
+comment5.text=\n\ Generate\ a\ number\ representing\ the\ number\ of\ births,\n\ if\ it\ can\ breed.\n\ @return\ The\ number\ of\ births\ (may\ be\ zero).\n
+comment6.params=
+comment6.target=boolean\ canBreed()
+comment6.text=\n\ A\ whale\ can\ breed\ if\ it\ has\ reached\ the\ breeding\ age.\n\ @return\ true\ if\ the\ whale\ can\ breed,\ false\ otherwise.\n
+numComments=7
